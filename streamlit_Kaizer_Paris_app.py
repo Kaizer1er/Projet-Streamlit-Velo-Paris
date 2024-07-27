@@ -1,3 +1,4 @@
+### Importation
 import pandas as pd
 import geopandas as gpd
 import streamlit as st
@@ -56,10 +57,10 @@ st.markdown("""
 # Fonction pour charger les données
 def load_data():
     try:
-        Paris_geojson = 'C:/Users/kaize/OneDrive/Bureau/Appli/arrondissements.geojson'
+        Paris_geojson = 'Données/arrondissements.geojson'
         gdf = gpd.read_file(Paris_geojson)
 
-        Velo_CSV = 'C:/Users/kaize/OneDrive/Bureau/Appli/Velo_Paris_new.csv'
+        Velo_CSV = 'Données/Velo_Paris_new.csv'
         Paris_velo = pd.read_csv(Velo_CSV, sep=',')
 
         Paris_velo['l_ar'] = Paris_velo['l_ar'].astype(str)
@@ -139,7 +140,7 @@ def create_map(gdf):
             hover_data=['comptages_annuels']
         )
 
-        contour_Paris_geojson = 'C:/Users/kaize/OneDrive/Bureau/Appli/Contours.geojson'
+        contour_Paris_geojson = 'Données/Contours.geojson'
         contour_gdf = gpd.read_file(contour_Paris_geojson)
         contour_Paris_geojson = contour_gdf.geometry.__geo_interface__
 

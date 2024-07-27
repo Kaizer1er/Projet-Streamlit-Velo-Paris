@@ -133,11 +133,11 @@ def create_map(gdf):
             size='comptages_annuels',
             color_continuous_scale=px.colors.cyclical.IceFire,
             size_max=40,
-            zoom=9,
+            zoom=10,
             center={"lat": 48.8566, "lon": 2.3522},
             mapbox_style="open-street-map",
             hover_name='l_ar',
-            hover_data=['comptages_annuels']
+            hover_data=['comptages_annuels', 'Localisation']
         )
 
         contour_Paris_geojson = 'Données/Contours.geojson'

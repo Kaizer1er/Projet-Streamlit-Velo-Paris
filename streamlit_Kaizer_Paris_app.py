@@ -105,7 +105,7 @@ def make_treemap(input_df, input_id, input_column, input_color_theme):
     if input_id in input_df.columns and input_column in input_df.columns:
         fig = px.treemap(
             input_df, 
-            path=[input_id], 
+            path=[input_id, input_column], 
             values=input_column,
             color=input_column, 
             color_continuous_scale=input_color_theme,  

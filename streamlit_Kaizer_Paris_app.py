@@ -12,7 +12,45 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+st.markdown("""
+<style>
+[data-testid="block-container"] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: -3rem;
+}
+[data-testid="stVerticalBlock"] {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+[data-testid="stMetric"] {
+    background-color: #393939;
+    text-align: center;
+    padding: 10px 0;
+}
+[data-testid="stMetricLabel"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+[data-testid="stMetricDeltaIcon-Up"] {
+    position: relative;
+    left: 3%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-20%);
+}
+[data-testid="stMetricDeltaIcon-Down"] {
+    position: relative;
+    left: 3%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-20%);
+}
+</style>
+""", unsafe_allow_html=True)
 # Fonction pour charger les données
 def load_data():
     try:

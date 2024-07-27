@@ -46,10 +46,10 @@ st.markdown("""
 }
 [data-testid="stMetricDeltaIcon-Down"] {
     position: relative;
-    left: 38%;
+    left: 3%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    transform: translateX(-20%);
 }
 </style>
 """, unsafe_allow_html=True)

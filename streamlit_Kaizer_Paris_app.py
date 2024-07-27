@@ -136,7 +136,7 @@ if gdf is not None and Paris_velo is not None:
         df_selected_year = Paris_velo[Paris_velo.year == selected_year]
         df_selected_year_sorted = df_selected_year.sort_values(by="comptages_annuels", ascending=False)
 
-        color_theme_list = ['viridis', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'blues', 'rainbow', 'turbo', 'reds']
+        color_theme_list = ['blues', 'cividis', 'greens', 'inferno', 'magma', 'plasma', 'viridis', 'rainbow', 'turbo', 'reds']
         selected_color_theme = st.selectbox('Select a color theme', color_theme_list)
 
     # Créer les graphiques

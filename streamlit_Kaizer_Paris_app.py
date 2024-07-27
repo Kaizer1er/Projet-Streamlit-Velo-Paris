@@ -39,17 +39,17 @@ st.markdown("""
 }
 [data-testid="stMetricDeltaIcon-Up"] {
     position: relative;
-    left: 3%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-20%);
+    left: 0%;
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
 }
 [data-testid="stMetricDeltaIcon-Down"] {
     position: relative;
-    left: 3%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-20%);
+    left: 0%;
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
 }
 </style>
 """, unsafe_allow_html=True)

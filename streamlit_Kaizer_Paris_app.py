@@ -17,8 +17,8 @@ st.set_page_config(
 st.markdown("""
 <style>
 [data-testid="block-container"] {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 0rem;
     margin-bottom: -7rem;
@@ -30,7 +30,7 @@ st.markdown("""
 [data-testid="stMetric"] {
     background-color: #393939;
     text-align: center;
-    padding: 15px 0;
+    padding: 11px 0;
 }
 [data-testid="stMetricLabel"] {
   display: flex;
@@ -39,10 +39,10 @@ st.markdown("""
 }
 [data-testid="stMetricDeltaIcon-Up"] {
     position: relative;
-    left: 38%;
+    left: 3%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+    transform: translateX(-20%);
 }
 [data-testid="stMetricDeltaIcon-Down"] {
     position: relative;

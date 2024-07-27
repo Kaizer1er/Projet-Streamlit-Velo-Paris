@@ -12,20 +12,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-# Styles CSS
-st.markdown("""
-<style>
-[data-testid="block-container"] {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 0rem;
-    margin-bottom: -7rem;
-}
-</style>
-""", unsafe_allow_html=True)
-
 # Fonction pour charger les données
 def load_data():
     try:

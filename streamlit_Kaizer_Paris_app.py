@@ -15,11 +15,11 @@ st.set_page_config(
 st.markdown("""
 <style>
 [data-testid="block-container"] {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 0rem;
     padding-bottom: 0rem;
-    margin-bottom: -7rem;
+    margin-bottom: 0rem;
 }
 [data-testid="stVerticalBlock"] {
     padding-left: 0rem;
@@ -28,7 +28,7 @@ st.markdown("""
 [data-testid="stMetric"] {
     background-color: #393939;
     text-align: center;
-    padding: 15px 0;
+    padding: 1px 0;
 }
 [data-testid="stMetricLabel"] {
   display: flex;

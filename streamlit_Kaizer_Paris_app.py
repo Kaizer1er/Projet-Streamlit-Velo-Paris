@@ -1,4 +1,4 @@
-#Importation des packages
+### Importation
 import pandas as pd
 import geopandas as gpd
 import streamlit as st
@@ -12,8 +12,6 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
-# CSS pour ajuster les marges
 st.markdown("""
 <style>
 [data-testid="block-container"] {
@@ -49,7 +47,6 @@ h4 {
 }
 </style>
 """, unsafe_allow_html=True)
-
 # Fonction pour charger les données
 def load_data():
     try:

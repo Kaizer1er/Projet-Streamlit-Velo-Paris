@@ -90,7 +90,7 @@ def create_scatter_plot(gdf):
         plot_bgcolor='rgba(0, 0, 0, 0)',
         paper_bgcolor='rgba(0, 0, 0, 0)',
         margin=dict(l=0, r=0, t=0, b=0),
-        height=300
+        height=00
     )
     return fig
 
@@ -109,7 +109,7 @@ def make_treemap(input_df, input_id, input_column, input_color_theme):
             plot_bgcolor='rgba(0, 0, 0, 0)',
             paper_bgcolor='rgba(0, 0, 0, 0)',
             margin=dict(l=0, r=0, t=0, b=0),
-            height=300
+            height=00
         )
         return fig
     else:
